@@ -1,16 +1,36 @@
-# React + Vite
+Rock Paper Scissors Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+About the Project
 
-Currently, two official plugins are available:
+This is a simple, interactive, and responsive Rock Paper Scissors web game built using React.js and Tailwind CSS. Players compete against the computer by choosing Rock, Paper, or Scissors. The game automatically determines the winner based on the game rules and provides an engaging gaming experience through a responsive user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Features
 
-## React Compiler
+- Interactive Rock, Paper, and Scissors selection
+- Player versus computer gameplay
+- Random computer choices
+- Automatic winner detection
+- Draw detection
+- Score tracking
+- Interactive buttons
+- Responsive user interface
+- Modern gaming design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript
+- Tailwind CSS
+- HTML
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+How to Run the Project
+
+1. Clone this repository.
+2. Open the project folder in VS Code.
+3. Install dependencies: "npm install"
+4. Start the development server: "npm run dev"
+5. Open the local URL shown in the terminal.
+
+Author
+
+Created as a frontend development learning project.
