@@ -1,0 +1,40 @@
+@import "tailwindcss";
+.txt{
+  text-shadow: 0 10px 25px rgba(0,0,0,0.45);
+}
+.img{
+  height: 190px;
+  width: 190px;
+  border-radius: 50%;
+  
+}
+.img3{
+    height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+@media(max-width:640px){
+  .img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  
+}
+ .img3{
+  height: 107px;
+  width: 107px;
+  border-radius: 50%;
+  border: 3px solid white;
+
+
+ }
+}
+.head{
+  background:linear-gradient(
+    135deg,
+    #061A3A,
+    #082957,
+    #031326
+  );
+}
